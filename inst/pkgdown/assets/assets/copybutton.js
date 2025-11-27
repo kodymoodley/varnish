@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
   codeBlocks.forEach((block) => {
     const pre = block.parentNode;
     // Skip if button already exists
-    if (pre.querySelector(".copy-button")) return;
+    if (pre.querySelector(".copy-code-button")) return;
 
     // Create copy button
     const button = document.createElement("button");
-    button.className = "copy-button";
+    button.className = "copy-code-button";
     button.type = "button";
     button.innerText = "Copy";
 
