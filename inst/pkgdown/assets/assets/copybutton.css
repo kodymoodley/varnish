@@ -1,0 +1,36 @@
+/* Style the copy button */
+.copy-code-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #24292e;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.copy-code-button:hover {
+  background-color: #e1e4e8;
+  border-color: #a0a4a9;
+}
+
+.copy-code-button:active {
+  background-color: #d1d5da;
+}
+
+.copy-code-button.copied {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+/* Ensure code blocks have enough padding for the button */
+pre {
+  padding-top: 40px !important;
+}
