@@ -11168,7 +11168,7 @@ fieldset:disabled .btn {
         display: none !important;
     }
 }
-pre .img,
+/* pre .img,
 pre .r-plt {
     margin: 5px 0;
 }
@@ -11191,7 +11191,7 @@ code a:any-link {
 }
 pre code a:any-link {
     color: inherit;
-}
+} */
 @media print {
     code a:link:after,
     code a:visited:after {
