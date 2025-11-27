@@ -1,9 +1,11 @@
+/* Style the copy button */
 .copy-code-button {
   position: absolute;
   top: 8px;
   right: 8px;
   padding: 6px 12px;
   font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   background-color: #f6f8fa;
   border: 1px solid #d1d5da;
   border-radius: 6px;
